@@ -1,0 +1,60 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+/* HEADER__TOP */
+.header__top{
+    background-color: #000;
+    padding: 15px 0;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.header__contact{
+    float: left;
+    color: white;
+}
+.header__contact a{
+    color: white;
+    margin-right: 50px;
+}
+.header__social {
+    float:right;
+}
+.header__social a{
+    margin-left: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+/* HEADER__MAIN */
+.header__main {
+    padding: 30px 0;
+}
+.header__main a img{
+    float: left;
+}
+.header__main ul{
+    float: right;
+    line-height: 40px;
+}
+.header__main ul li{
+    display: inline;
+    margin-left: 40px;
+}
+.header__main ul li a{
+    color: #102955;
+    font-size: 15px;
+    font-weight: 700;
+    /* text-transform: capitalize; (Không cần sử dụng vì bên index.html đã viết hoa chữ cái đầu )*/
+}
