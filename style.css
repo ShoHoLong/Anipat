@@ -5,9 +5,20 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-size: 16px;
 }
+/* NHỚ CLEAR SAU KHI SỬ DỤNG FLOAT */
 .clear{
     clear: both;
+}
+/* GLOBAL */
+.btn{
+    padding: 17px 50px;
+    background-color: #fff;
+    color: #ff3500;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-weight: 500;
 }
 
 /* HEADER */
@@ -48,6 +59,8 @@
     float: right;
     line-height: 40px;
 }
+/* CHUYỂN THẺ li THÀNH THẺ INLINE VÌ BẢN CHẤT THẺ li LÀ THẺ BLOCK */
+/* MARGIN-LEFT LÀ CĂN KHOẢNG CÁCH GIỮA CÁC THẺ li */
 .header__main ul li{
     display: inline;
     margin-left: 40px;
@@ -58,3 +71,52 @@
     font-weight: 700;
     /* text-transform: capitalize; (Không cần sử dụng vì bên index.html đã viết hoa chữ cái đầu )*/
 }
+
+/* BANNER */
+/* BANNER__LEFT */
+.banner{
+    height: 600px;
+    background-image: url(./img/banner.png);
+    background-size: 100%;
+    background-position: center bottom;
+}
+.banner .container{
+    position: relative;
+}
+.banner__left{
+    width: 30%;
+    padding-top: 10%;
+}
+.banner__left h1{
+    color: white;
+    font-size: 78px;
+    font-weight: 200;
+    margin-bottom: 4px;
+    line-height: 85px;
+}
+.banner__left h1 span{
+    font-weight: 800;
+    font-size: 78px;
+}
+.banner__left p{
+    color: white;
+    line-height: 32px;
+    margin: 12px 0 50px;
+    font-weight: 400;
+}
+.banner__left .banner__right{
+    float: left;
+}
+/* BANNER__RIGHT */
+.banner__right{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+}
+.banner__right img{
+    width: 100%;
+}
+
+/* SERVICES */
