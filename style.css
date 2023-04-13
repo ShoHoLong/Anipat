@@ -11,7 +11,7 @@
 .clear{
     clear: both;
 }
-/* GLOBAL */
+/* DÙNG CHUNG */
 .div{
     display: block;
 }
@@ -45,16 +45,16 @@
     font-size: 18px;
     margin: 30px 0 54px 0;
 }
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
 
 /* HEADER */
 /* HEADER__TOP */
 .header__top{
     background-color: #000;
     padding: 15px 0;
-}
-.container {
-    max-width: 1140px;
-    margin: auto;
 }
 .header__contact{
     float: left;
@@ -220,6 +220,9 @@
 
 /* HELP */
 /* left */
+.help{
+    padding: 125px 0 90px 0; 
+}
 .help__left {
     float: left;
     width: 50%;
@@ -265,10 +268,103 @@
 }
 
 /* TEAM */
+.team{
+    text-align: center;
+    padding: 125px 0 200px 0;
+}
+.container > .title {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 90px;
+}
 .team__item {
     float: left;
     width: calc(100% / 3);
+    position: relative;
+    padding: 0 15px;
 }
 .team__item img {
     width: 100%;
+}
+.team__title {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    bottom: -20px;
+    left: 0;
+} 
+.team__title__intro{
+    width: 50%;
+    margin: auto;
+    padding: 16px 40px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 2, 0.08);
+    border-radius: 5px;
+}
+.team__title__intro h3 {
+    font-size: 18px;
+    color: #222;
+    font-weight: 700;
+}
+.team__title__intro p{
+    font-size:14px;
+    color: #7a7b7c;
+    font-weight: 400;
+}
+
+/* CONTACT */
+.contact{
+    padding: 170px 0 160px 0;
+    background-image: url(./img/contact_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+}
+.contact__content{
+    width: 50%;
+    margin: auto;
+}
+.contact__content h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.contact__content p{
+    font-size: 25px;
+    color: #fff;
+    margin: 35px 0 50px 0;
+    line-height: 40px;
+}
+.contact__info span{
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+}
+.contact__info a{
+    font-weight: 600;
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* FOOTER */
+.footer__item {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+.footer__item h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #2e2e2e;
+    margin-bottom: 36px;
+}
+.footer__item ul li{
+    font-weight: 400;
+    line-height: 40px;
+}
+.footer__item ul li a{
+    color: #7a7a7a;
 }
