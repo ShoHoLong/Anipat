@@ -234,6 +234,7 @@
     float: left;
     padding: 150px 15px;
     text-align: center;
+    width: 50%;
 }
 .help__item{
     border: 1px solid rgb(0, 0, 2, 0.08);
@@ -256,12 +257,18 @@
 }
 .col-2 {
     float: left;
+    width: 50%;
     padding: 0 15px;
 }
-.help__item-2 {
-    border: 1px solid rgb(0, 0, 2, 0.08);
-        border-radius: 14px;
-        background-color: #fff;
-        padding: 40px 40px 33px 40px ;
-        margin-bottom: 40px;
+.col-2 > .help__item{
+    margin-bottom: 40px;
+}
+
+/* TEAM */
+.team__item {
+    float: left;
+    width: calc(100% / 3);
+}
+.team__item img {
+    width: 100%;
 }
