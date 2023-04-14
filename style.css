@@ -350,6 +350,9 @@
 }
 
 /* FOOTER */
+.footer__top{
+    padding: 130px 0 110px 0;
+}
 .footer__item {
     float: left;
     width: 25%;
@@ -367,4 +370,24 @@
 }
 .footer__item ul li a{
     color: #7a7a7a;
+}
+.footer__item p{
+    margin-top: 35px;
+    color: #7a7a7a;
+}
+.footer__social{
+    margin-top: 26px;
+}
+.footer__social a{
+    margin-right: 20px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+.footer__bottom{
+    padding: 30px 0 32px 0;
+    border-top: 1px solid #e0e0e0;
+}
+.footer__bottom p{
+    font-size: 18px;
+    color: #888;
 }
