@@ -261,6 +261,7 @@
     border-radius: 14px;
     background-color: #fff;
     padding: 40px 40px 33px 40px;
+    text-align: center;
 }
 .help__item h3{
     font-size: 60px;
